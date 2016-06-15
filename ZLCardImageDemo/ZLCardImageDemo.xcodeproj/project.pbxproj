@@ -1,0 +1,409 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		82B2116E46D0246A81A37F92 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5F1D5B9DE834BF3BCEF60C79 /* libPods.a */; };
+		A8584A111D10DF3800B71719 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A8584A101D10DF3800B71719 /* main.m */; };
+		A8584A141D10DF3800B71719 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A8584A131D10DF3800B71719 /* AppDelegate.m */; };
+		A8584A171D10DF3800B71719 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A8584A161D10DF3800B71719 /* ViewController.m */; };
+		A8584A1A1D10DF3800B71719 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A8584A181D10DF3800B71719 /* Main.storyboard */; };
+		A8584A1C1D10DF3800B71719 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A8584A1B1D10DF3800B71719 /* Assets.xcassets */; };
+		A8584A1F1D10DF3800B71719 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A8584A1D1D10DF3800B71719 /* LaunchScreen.storyboard */; };
+		A8584A2D1D10E16B00B71719 /* UIView+Common.m in Sources */ = {isa = PBXBuildFile; fileRef = A8584A281D10E16B00B71719 /* UIView+Common.m */; };
+		A8584A2E1D10E16B00B71719 /* ZLCardScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = A8584A2A1D10E16B00B71719 /* ZLCardScrollView.m */; };
+		A8584A2F1D10E16B00B71719 /* ZLCardView.m in Sources */ = {isa = PBXBuildFile; fileRef = A8584A2C1D10E16B00B71719 /* ZLCardView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		084F81C82AE0E8E92F459013 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		5F1D5B9DE834BF3BCEF60C79 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		6F5F152A76CCDA7225411E47 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		A8584A0C1D10DF3800B71719 /* ZLCardImageDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZLCardImageDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A8584A101D10DF3800B71719 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A8584A121D10DF3800B71719 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A8584A131D10DF3800B71719 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A8584A151D10DF3800B71719 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		A8584A161D10DF3800B71719 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		A8584A191D10DF3800B71719 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A8584A1B1D10DF3800B71719 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A8584A1E1D10DF3800B71719 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A8584A201D10DF3800B71719 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A8584A271D10E16B00B71719 /* UIView+Common.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Common.h"; sourceTree = "<group>"; };
+		A8584A281D10E16B00B71719 /* UIView+Common.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Common.m"; sourceTree = "<group>"; };
+		A8584A291D10E16B00B71719 /* ZLCardScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZLCardScrollView.h; sourceTree = "<group>"; };
+		A8584A2A1D10E16B00B71719 /* ZLCardScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZLCardScrollView.m; sourceTree = "<group>"; };
+		A8584A2B1D10E16B00B71719 /* ZLCardView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZLCardView.h; sourceTree = "<group>"; };
+		A8584A2C1D10E16B00B71719 /* ZLCardView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZLCardView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A8584A091D10DF3800B71719 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				82B2116E46D0246A81A37F92 /* libPods.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		207BAF6D759377E9E69B6698 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5F1D5B9DE834BF3BCEF60C79 /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		258F3DCC654475408F86065C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6F5F152A76CCDA7225411E47 /* Pods.debug.xcconfig */,
+				084F81C82AE0E8E92F459013 /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		A8584A031D10DF3800B71719 = {
+			isa = PBXGroup;
+			children = (
+				A8584A0E1D10DF3800B71719 /* ZLCardImageDemo */,
+				A8584A0D1D10DF3800B71719 /* Products */,
+				258F3DCC654475408F86065C /* Pods */,
+				207BAF6D759377E9E69B6698 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		A8584A0D1D10DF3800B71719 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A8584A0C1D10DF3800B71719 /* ZLCardImageDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A8584A0E1D10DF3800B71719 /* ZLCardImageDemo */ = {
+			isa = PBXGroup;
+			children = (
+				A8584A261D10E14E00B71719 /* ZLCardsView */,
+				A8584A121D10DF3800B71719 /* AppDelegate.h */,
+				A8584A131D10DF3800B71719 /* AppDelegate.m */,
+				A8584A151D10DF3800B71719 /* ViewController.h */,
+				A8584A161D10DF3800B71719 /* ViewController.m */,
+				A8584A181D10DF3800B71719 /* Main.storyboard */,
+				A8584A1B1D10DF3800B71719 /* Assets.xcassets */,
+				A8584A1D1D10DF3800B71719 /* LaunchScreen.storyboard */,
+				A8584A201D10DF3800B71719 /* Info.plist */,
+				A8584A0F1D10DF3800B71719 /* Supporting Files */,
+			);
+			path = ZLCardImageDemo;
+			sourceTree = "<group>";
+		};
+		A8584A0F1D10DF3800B71719 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A8584A101D10DF3800B71719 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A8584A261D10E14E00B71719 /* ZLCardsView */ = {
+			isa = PBXGroup;
+			children = (
+				A8584A271D10E16B00B71719 /* UIView+Common.h */,
+				A8584A281D10E16B00B71719 /* UIView+Common.m */,
+				A8584A291D10E16B00B71719 /* ZLCardScrollView.h */,
+				A8584A2A1D10E16B00B71719 /* ZLCardScrollView.m */,
+				A8584A2B1D10E16B00B71719 /* ZLCardView.h */,
+				A8584A2C1D10E16B00B71719 /* ZLCardView.m */,
+			);
+			name = ZLCardsView;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A8584A0B1D10DF3800B71719 /* ZLCardImageDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A8584A231D10DF3800B71719 /* Build configuration list for PBXNativeTarget "ZLCardImageDemo" */;
+			buildPhases = (
+				39D8C4ABF5225B35B7BF7755 /* Check Pods Manifest.lock */,
+				A8584A081D10DF3800B71719 /* Sources */,
+				A8584A091D10DF3800B71719 /* Frameworks */,
+				A8584A0A1D10DF3800B71719 /* Resources */,
+				BF4911E08C1A5CD833018192 /* Embed Pods Frameworks */,
+				48C810079B3CC419D7D1846E /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ZLCardImageDemo;
+			productName = ZLCardImageDemo;
+			productReference = A8584A0C1D10DF3800B71719 /* ZLCardImageDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A8584A041D10DF3800B71719 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = LiuChao;
+				TargetAttributes = {
+					A8584A0B1D10DF3800B71719 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+				};
+			};
+			buildConfigurationList = A8584A071D10DF3800B71719 /* Build configuration list for PBXProject "ZLCardImageDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A8584A031D10DF3800B71719;
+			productRefGroup = A8584A0D1D10DF3800B71719 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A8584A0B1D10DF3800B71719 /* ZLCardImageDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A8584A0A1D10DF3800B71719 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A8584A1F1D10DF3800B71719 /* LaunchScreen.storyboard in Resources */,
+				A8584A1C1D10DF3800B71719 /* Assets.xcassets in Resources */,
+				A8584A1A1D10DF3800B71719 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		39D8C4ABF5225B35B7BF7755 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		48C810079B3CC419D7D1846E /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BF4911E08C1A5CD833018192 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A8584A081D10DF3800B71719 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A8584A2E1D10E16B00B71719 /* ZLCardScrollView.m in Sources */,
+				A8584A171D10DF3800B71719 /* ViewController.m in Sources */,
+				A8584A141D10DF3800B71719 /* AppDelegate.m in Sources */,
+				A8584A111D10DF3800B71719 /* main.m in Sources */,
+				A8584A2F1D10E16B00B71719 /* ZLCardView.m in Sources */,
+				A8584A2D1D10E16B00B71719 /* UIView+Common.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A8584A181D10DF3800B71719 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A8584A191D10DF3800B71719 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A8584A1D1D10DF3800B71719 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A8584A1E1D10DF3800B71719 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A8584A211D10DF3800B71719 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		A8584A221D10DF3800B71719 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A8584A241D10DF3800B71719 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6F5F152A76CCDA7225411E47 /* Pods.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ZLCardImageDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.cicada.swift.ZLCardImageDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		A8584A251D10DF3800B71719 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 084F81C82AE0E8E92F459013 /* Pods.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ZLCardImageDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.cicada.swift.ZLCardImageDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A8584A071D10DF3800B71719 /* Build configuration list for PBXProject "ZLCardImageDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A8584A211D10DF3800B71719 /* Debug */,
+				A8584A221D10DF3800B71719 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A8584A231D10DF3800B71719 /* Build configuration list for PBXNativeTarget "ZLCardImageDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A8584A241D10DF3800B71719 /* Debug */,
+				A8584A251D10DF3800B71719 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A8584A041D10DF3800B71719 /* Project object */;
+}
