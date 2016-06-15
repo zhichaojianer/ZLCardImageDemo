@@ -3,6 +3,7 @@
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
@@ -16,8 +17,31 @@
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="URp-cL-owv" customClass="ZLSwipeableView">
+                                <rect key="frame" x="160" y="340" width="280" height="210"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="URp-cL-owv" secondAttribute="height" multiplier="4:3" id="7P2-uh-sNN"/>
+                                    <constraint firstAttribute="width" constant="280" id="9Bn-AU-NiI"/>
+                                </constraints>
+                            </view>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="URp-cL-owv" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="Dsk-r2-Qc0"/>
+                            <constraint firstItem="URp-cL-owv" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Nhu-b3-QyN"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="URp-cL-owv" secondAttribute="bottom" constant="50" id="gbd-Wv-ZbI"/>
+                        </constraints>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="Dsk-r2-Qc0"/>
+                            </mask>
+                        </variation>
                     </view>
+                    <connections>
+                        <outlet property="swipeableView" destination="URp-cL-owv" id="E6M-TH-9Q1"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>

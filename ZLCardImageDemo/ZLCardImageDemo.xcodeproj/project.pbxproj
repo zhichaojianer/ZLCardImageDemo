@@ -17,6 +17,8 @@
 		A8584A2D1D10E16B00B71719 /* UIView+Common.m in Sources */ = {isa = PBXBuildFile; fileRef = A8584A281D10E16B00B71719 /* UIView+Common.m */; };
 		A8584A2E1D10E16B00B71719 /* ZLCardScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = A8584A2A1D10E16B00B71719 /* ZLCardScrollView.m */; };
 		A8584A2F1D10E16B00B71719 /* ZLCardView.m in Sources */ = {isa = PBXBuildFile; fileRef = A8584A2C1D10E16B00B71719 /* ZLCardView.m */; };
+		A8584A351D10E74800B71719 /* ZLPanGestureRecognizer.m in Sources */ = {isa = PBXBuildFile; fileRef = A8584A321D10E74800B71719 /* ZLPanGestureRecognizer.m */; };
+		A8584A361D10E74800B71719 /* ZLSwipeableView.m in Sources */ = {isa = PBXBuildFile; fileRef = A8584A341D10E74800B71719 /* ZLSwipeableView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -39,6 +41,10 @@
 		A8584A2A1D10E16B00B71719 /* ZLCardScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZLCardScrollView.m; sourceTree = "<group>"; };
 		A8584A2B1D10E16B00B71719 /* ZLCardView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZLCardView.h; sourceTree = "<group>"; };
 		A8584A2C1D10E16B00B71719 /* ZLCardView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZLCardView.m; sourceTree = "<group>"; };
+		A8584A311D10E74800B71719 /* ZLPanGestureRecognizer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZLPanGestureRecognizer.h; sourceTree = "<group>"; };
+		A8584A321D10E74800B71719 /* ZLPanGestureRecognizer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZLPanGestureRecognizer.m; sourceTree = "<group>"; };
+		A8584A331D10E74800B71719 /* ZLSwipeableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZLSwipeableView.h; sourceTree = "<group>"; };
+		A8584A341D10E74800B71719 /* ZLSwipeableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZLSwipeableView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -91,6 +97,7 @@
 		A8584A0E1D10DF3800B71719 /* ZLCardImageDemo */ = {
 			isa = PBXGroup;
 			children = (
+				A8584A301D10E73800B71719 /* ZLSwipeableView */,
 				A8584A261D10E14E00B71719 /* ZLCardsView */,
 				A8584A121D10DF3800B71719 /* AppDelegate.h */,
 				A8584A131D10DF3800B71719 /* AppDelegate.m */,
@@ -124,6 +131,17 @@
 				A8584A2C1D10E16B00B71719 /* ZLCardView.m */,
 			);
 			name = ZLCardsView;
+			sourceTree = "<group>";
+		};
+		A8584A301D10E73800B71719 /* ZLSwipeableView */ = {
+			isa = PBXGroup;
+			children = (
+				A8584A311D10E74800B71719 /* ZLPanGestureRecognizer.h */,
+				A8584A321D10E74800B71719 /* ZLPanGestureRecognizer.m */,
+				A8584A331D10E74800B71719 /* ZLSwipeableView.h */,
+				A8584A341D10E74800B71719 /* ZLSwipeableView.m */,
+			);
+			name = ZLSwipeableView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -248,8 +266,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				A8584A2E1D10E16B00B71719 /* ZLCardScrollView.m in Sources */,
+				A8584A361D10E74800B71719 /* ZLSwipeableView.m in Sources */,
 				A8584A171D10DF3800B71719 /* ViewController.m in Sources */,
 				A8584A141D10DF3800B71719 /* AppDelegate.m in Sources */,
+				A8584A351D10E74800B71719 /* ZLPanGestureRecognizer.m in Sources */,
 				A8584A111D10DF3800B71719 /* main.m in Sources */,
 				A8584A2F1D10E16B00B71719 /* ZLCardView.m in Sources */,
 				A8584A2D1D10E16B00B71719 /* UIView+Common.m in Sources */,
